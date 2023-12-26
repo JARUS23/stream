@@ -1,0 +1,14 @@
+fff:
+  outputs:
+
+    rds_target:
+      dbname: postgres
+      host: destination.cxjxmknm7hv1.us-east-1.rds.amazonaws.com
+      pass: suraj123
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgres
+
+  target: rds_target
