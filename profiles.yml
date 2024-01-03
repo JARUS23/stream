@@ -6,7 +6,7 @@ fff:
       host: destination.cxjxmknm7hv1.us-east-1.rds.amazonaws.com
       pass: suraj123
       port: 5432
-      schema: public
+      schema: postgres_rds_public
       threads: 1
       type: postgres
       user: postgres
