@@ -3,10 +3,10 @@ fff:
 
     rds_target:
       dbname: postgres
-      host: destination2.cxjxmknm7hv1.us-east-1.rds.amazonaws.com
+      host: destination23.cxjxmknm7hv1.us-east-1.rds.amazonaws.com
       pass: suraj123
       port: 5432
-      schema: postgres_rds_public
+      schema: public
       threads: 1
       type: postgres
       user: postgres
