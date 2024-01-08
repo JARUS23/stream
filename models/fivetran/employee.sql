@@ -1,1 +1,1 @@
-select * from {{ source('postgres_rds_public', 'employee') }}
+select * from {{ source('postgres_rds_public', 'customers') }}
